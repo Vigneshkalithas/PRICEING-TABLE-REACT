@@ -3,16 +3,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background: rgb(112,106,222);
-  background: linear-gradient(90deg, rgba(112,106,222,1) 0%, rgba(102,102,241,1) 0%, rgba(10,186,231,1) 80%);
-  
+  /* height: 100vh; */
+   /* background: rgb(112,106,222); */
+  /* background: linear-gradient(90deg, rgba(112,106,222,1) 0%, rgba(102,102,241,1) 0%, rgba(10,186,231,1) 80%);  */
+  background-image: url("../public/bgshape.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 .cardParent{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap:30px;
+  gap:50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   
 
 }
@@ -62,13 +66,14 @@ ul,li {
   list-style-type: none;
 }
 .cards{
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   cursor: pointer;
   transition: 0.4s;
 }
 
 .cards:hover {
-  transform: scale(0.9, 0.9);
+  transform: scale(0.95, 0.95);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
     -5px -5px 30px 15px rgba(0,0,0,0.22);
 }

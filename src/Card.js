@@ -7,7 +7,7 @@ export function Card({ pricetitle, price, listofdata }) {
       <div className='underLine'></div>
 
       <ul>
-        {listofdata.map((paras) => (<li className={paras.texttype}><span><i class={paras.icontype} aria-hidden="true"></i></span>{paras.list}</li>))}
+        {listofdata.map((paras) => (<li className={paras.texttype}><span><i className={paras.icontype} aria-hidden="true"></i></span>{paras.list}</li>))}
       </ul>
       <div className="buTTon"><button className='btn btn-primary'>Button</button></div>
     </div>
